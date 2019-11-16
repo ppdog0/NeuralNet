@@ -6,8 +6,6 @@ from HyperParameters import HyperParameters
 from DataReader import DataReader
 from NeuralNet import NeuralNet
 
-file_name = "./housing.data"
-
 def draw(reader,net):
     plt.plot(reader.XTrain,reader.YTrain)
     plt.show()
